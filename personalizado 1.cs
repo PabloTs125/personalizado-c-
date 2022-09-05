@@ -20,6 +20,7 @@ Console.WriteLine("Que Producto desea comprar?");
                
             Console.WriteLine ("Ingrese la cantidad de producto");
 		cantidad =Convert.ToInt32 (Console.ReadLine());
+        } while (i < 4);
     if (producto==1) {
 Console.WriteLine("Krippy Kush");
 total=cantidad*15000;
@@ -41,5 +42,4 @@ if (producto==2){
 	Console.WriteLine("Producto comprado: "+producto);
 	Console.WriteLine("Cantidad de producto: "+cantidad);
 	Console.WriteLine("El total a pagar es: $ "+total);
- } while (i < 4);
-
+ 
